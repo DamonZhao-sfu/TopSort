@@ -1,0 +1,61 @@
+<ENTRY>
+{
+ "thisFile": "/localhdd/hza214/Vitis_Accel_Examples/rtl_kernels/TopSort/build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Jun  7 14:02:39 2024",
+ "timestampMillis": "1717794159320",
+ "buildStep": {
+  "cmdId": "c2f1d0e8-59c7-4891-8ca4-3fdda0afc016",
+  "name": "v++",
+  "logFile": "/localhdd/hza214/Vitis_Accel_Examples/rtl_kernels/TopSort/_x.hw.xilinx_u280_xdma_201920_3/link/link.steps.log",
+  "commandLine": "/local-scratch/Xilinx/Vitis/2020.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t hw --platform xilinx_u280_xdma_201920_3 --save-temps -l --config ./constraints/krnl_hbm.cfg --jobs 8 --config ./constraints/pnr.cfg --temp_dir ./_x.hw.xilinx_u280_xdma_201920_3 -o./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin _x.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xo ",
+  "args": [
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u280_xdma_201920_3",
+   "--save-temps",
+   "-l",
+   "--config",
+   "./constraints/krnl_hbm.cfg",
+   "--jobs",
+   "8",
+   "--config",
+   "./constraints/pnr.cfg",
+   "--temp_dir",
+   "./_x.hw.xilinx_u280_xdma_201920_3",
+   "-o./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin",
+   "_x.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/localhdd/hza214/Vitis_Accel_Examples/rtl_kernels/TopSort/constraints/krnl_hbm.cfg",
+    "content": "[connectivity]\nsp=merge_sort_complete_1.m00_axi:HBM[0:7]\nsp=merge_sort_complete_1.m01_axi:HBM[2:3]\nsp=merge_sort_complete_1.m02_axi:HBM[4:5]\nsp=merge_sort_complete_1.m03_axi:HBM[6:7]\nsp=merge_sort_complete_1.m04_axi:HBM[8:15]\nsp=merge_sort_complete_1.m05_axi:HBM[10:11]\nsp=merge_sort_complete_1.m06_axi:HBM[12:13]\nsp=merge_sort_complete_1.m07_axi:HBM[14:15]\nsp=merge_sort_complete_1.m08_axi:HBM[16:23]\nsp=merge_sort_complete_1.m09_axi:HBM[18:19]\nsp=merge_sort_complete_1.m10_axi:HBM[20:21]\nsp=merge_sort_complete_1.m11_axi:HBM[22:23]\nsp=merge_sort_complete_1.m12_axi:HBM[24:31]\nsp=merge_sort_complete_1.m13_axi:HBM[26:27]\nsp=merge_sort_complete_1.m14_axi:HBM[28:29]\nsp=merge_sort_complete_1.m15_axi:HBM[30:31]\n"
+   },
+   {
+    "path": "/localhdd/hza214/Vitis_Accel_Examples/rtl_kernels/TopSort/constraints/pnr.cfg",
+    "content": "[vivado]\nprop=run.impl_1.STEPS.OPT_DESIGN.TCL.PRE=./constraints/pnr.xdc\nprop=run.impl_1.STEPS.OPT_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=EarlyBlockPlacement\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE=AggressiveExplore\n"
+   }
+  ],
+  "cwd": "/localhdd/hza214/Vitis_Accel_Examples/rtl_kernels/TopSort"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jun  7 14:02:39 2024",
+ "timestampMillis": "1717794159320",
+ "status": {
+  "cmdId": "c2f1d0e8-59c7-4891-8ca4-3fdda0afc016",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>

@@ -85,7 +85,7 @@ int main(int argc, char** argv)
 
     cl_int err;
     std::vector<cl::Device> devices = xcl::get_xil_devices();
-    cl::Device device = devices[1];
+    cl::Device device = devices[0];
 
     OCL_CHECK(err, cl::Context context({device}, NULL, NULL, NULL, &err));
     OCL_CHECK(err, cl::CommandQueue q(context, {device}, CL_QUEUE_PROFILING_ENABLE, &err));

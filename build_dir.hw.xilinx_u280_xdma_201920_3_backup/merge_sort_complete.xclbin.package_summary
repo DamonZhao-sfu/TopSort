@@ -1,0 +1,121 @@
+<ENTRY>
+{
+ "thisFile": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xclbin.package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Dec 18 08:54:16 2023",
+ "timestampMillis": "1702918456260",
+ "buildStep": {
+  "cmdId": "8077de11-c2da-49e1-8362-eabaa9ee5712",
+  "name": "v++",
+  "logFile": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/_x/package/package.steps.log",
+  "commandLine": "/localssd/Xilinx/Vitis/2020.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -p ./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin -t hw --platform xilinx_u280_xdma_201920_3 --package.out_dir ./package.hw -o ./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xclbin ",
+  "args": [
+   "-p",
+   "./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u280_xdma_201920_3",
+   "--package.out_dir",
+   "./package.hw",
+   "-o",
+   "./build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 18 08:54:16 2023",
+ "timestampMillis": "1702918456260",
+ "status": {
+  "cmdId": "8077de11-c2da-49e1-8362-eabaa9ee5712",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Dec 18 08:54:27 2023",
+ "timestampMillis": "1702918467402",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u280_xdma_201920_3.xpfm",
+  "hardwareDsa": "xilinx_u280_xdma_201920_3.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u280_xdma_201920_3",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_PACKAGE",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "merge_sort_complete",
+    "file": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [],
+  "toolVersion": "Vitis V++ Compiler Release 2020.2. SW Build (by xbuild) on 2020-11-18-05:13:29",
+  "inputBinaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "merge_sort_complete.link",
+    "file": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/build_dir.hw.xilinx_u280_xdma_201920_3/merge_sort_complete.link.xclbin",
+    "reports": [],
+    "uuid": "775afd43-66c9-49c1-8f85-ba48892559cc"
+   },
+   "kernels": []
+  }
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 18 08:54:28 2023",
+ "timestampMillis": "1702918468029",
+ "report": {
+  "path": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/_x/reports/package/v++_package_merge_sort_complete_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 18 08:54:28 2023",
+ "timestampMillis": "1702918468030",
+ "report": {
+  "path": "/localhdd/hza215/Vitis_Accel/rtl_kernels/TopSort/_x/v++_package_merge_sort_complete_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 18 08:54:28 2023",
+ "timestampMillis": "1702918468030",
+ "status": {
+  "cmdId": "8077de11-c2da-49e1-8362-eabaa9ee5712",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

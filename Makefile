@@ -53,7 +53,7 @@ help::
 ############################## Setting up Project Variables ##############################
 # Points to top directory of Git repository
 MK_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
-COMMON_REPO ?= ../../../../
+COMMON_REPO ?= /localhdd/hza214/Vitis_Accel_Examples
 PWD = $(shell readlink -f .)
 XF_PROJ_ROOT = $(shell readlink -f $(COMMON_REPO))
 
